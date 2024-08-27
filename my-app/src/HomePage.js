@@ -1,22 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-// Define the Header component
-const Header = () => {
-    return (
-        <header>
-            <h1>Welcome to SocialSphere</h1>
-            <nav>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/login">Login</Link></li>
-                </ul>
-            </nav>
-        </header>
-    );
-};
+import Header from './Header';
 
 // Define the Main component
 const MainContent = () => {
@@ -47,7 +31,7 @@ const Footer = () => {
 const HomePage = () => {
     return (
         <div className="container">
-            <Header />
+            <Header name = "Welcome to SocialSphere1" />
             <MainContent />
             <Footer />
         </div>
