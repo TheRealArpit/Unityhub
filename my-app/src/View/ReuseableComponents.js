@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Define the Header component
-const Header = ({ name }) => {
+export const Header = ({ name }) => {
     return (
         <header>
             <h1>{ name }</h1>
@@ -18,4 +18,11 @@ const Header = ({ name }) => {
     );
 };
 
-export default Header;
+// Define the Footer component
+export const Footer = () => {
+    return (
+        <footer>
+            <p>&copy; 2024 SocialSphere. All rights reserved.</p>
+        </footer>
+    );
+};

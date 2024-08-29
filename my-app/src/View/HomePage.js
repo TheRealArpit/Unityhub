@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Header from './Header';
+import { Header, Footer } from './ReuseableComponents';
 
 // Define the Main component
 const MainContent = () => {
@@ -15,15 +14,6 @@ const MainContent = () => {
                 <p>Post photos, videos, and updates to share your life's key moments.</p>
             </section>
         </main>
-    );
-};
-
-// Define the Footer component
-const Footer = () => {
-    return (
-        <footer>
-            <p>&copy; 2024 SocialSphere. All rights reserved.</p>
-        </footer>
     );
 };
 
