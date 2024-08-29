@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import './App.css';
 import './styles.css'; // Ensure the CSS affects the whole app
+import logo from './logo.svg';
 import HomePage from './HomePage';
 import LoginPage from  './LoginPage';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function App() {
   return (
